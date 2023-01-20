@@ -40,6 +40,7 @@ body {
   padding: 1.5rem;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 1rem;
+  max-width: 24rem;
 }
 .component--response {
   text-align: center;
