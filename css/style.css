@@ -41,13 +41,20 @@ body {
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 5%;
 }
+.component--response {
+  text-align: center;
+}
 .component__image {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .component__image--rating {
   padding: 0.75rem;
   border-radius: 50%;
   background-color: #343942;
+}
+.component__image--response {
+  margin-left: auto;
+  margin-right: auto;
 }
 .component__heading {
   margin-bottom: 1rem;
@@ -88,6 +95,14 @@ body {
   font-weight: 700;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(25deg, 97%, 53%);
+}
+.component__notification {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.5rem 0.25rem;
+  border-radius: 2rem;
+  color: hsl(25deg, 97%, 53%);
+  background-color: #343942;
 }
 
 .attribution {

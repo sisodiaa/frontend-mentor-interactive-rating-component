@@ -54,13 +54,22 @@ body {
   background-color: $color-neutral-dark-blue;
   border-radius: 5%;;
 
+  &--response {
+    text-align: center;
+  }
+
   &__image {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     &--rating {
       padding: 0.75rem;
       border-radius: 50%;
       background-color: darken($color-neutral-medium-grey, 31%);
+    }
+
+    &--response {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -108,6 +117,15 @@ body {
     font-weight: $font-weight-bold;
     color: $color-neutral-white;
     background-color: $color-orange;
+  }
+
+  &__notification {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0.5rem 0.25rem;
+    border-radius: 2rem;
+    color: $color-orange;
+    background-color: darken($color-neutral-medium-grey, 31%);
   }
 }
 
