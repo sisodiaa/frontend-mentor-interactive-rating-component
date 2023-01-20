@@ -20,7 +20,7 @@
   <body>
     <div class="container">
       <!-- Rating state start -->
-      <main class="component component--rating">
+      <main class="component component--rating" id="rating">
         <img
           src="images/icon-star.svg"
           alt="Star Icon"
@@ -36,7 +36,7 @@
           is appreciated to help us improve our offering!
         </p>
 
-        <form class="component__form">
+        <form class="component__form" id="form">
           <fieldset class="component__ratings">
             <label for="rating_one">
               <input
@@ -44,7 +44,7 @@
                 id="rating_one"
                 class="component__rating component__rating--one"
                 name="component__rating"
-                value="one"
+                value="1"
               />
               1
             </label>
@@ -55,7 +55,7 @@
                 id="rating_two"
                 class="component__rating component__rating--two"
                 name="component__rating"
-                value="two"
+                value="2"
               />
               2
             </label>
@@ -66,7 +66,7 @@
                 id="rating_three"
                 class="component__rating component__rating--three"
                 name="component__rating"
-                value="three"
+                value="3"
               />
               3
             </label>
@@ -77,7 +77,7 @@
                 id="rating_four"
                 class="component__rating component__rating--four"
                 name="component__rating"
-                value="four"
+                value="4"
               />
               4
             </label>
@@ -88,7 +88,7 @@
                 id="rating_five"
                 class="component__rating component__rating--five"
                 name="component__rating"
-                value="five"
+                value="5"
               />
               5
             </label>
@@ -100,14 +100,14 @@
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
-      <main class="component component--response" hidden>
+      <main class="component component--response" id="response" hidden>
         <img
           src="images/illustration-thank-you.svg"
           alt="Illustration for Thank you"
           class="component__image component__image--response"
         />
         <blockquote class="component__notification">
-          You selected <span class="component__feedback">3</span> out of 5
+          You selected <span class="component__feedback" id="feedback"></span> out of 5
         </blockquote>
 
         <h1 class="component__heading component__heading--response">
